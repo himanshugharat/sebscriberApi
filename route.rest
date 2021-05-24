@@ -1,0 +1,20 @@
+GET http://localhost:3000/subscriber/
+###
+GET http://localhost:3000/subscriber/60aa5fc3f2ace701bc98a040
+###
+POST http://localhost:3000/subscriber/
+Content-Type: application/json
+
+{
+    "name":"himanshu11",
+    "SubscriberChannel":"himan"
+}
+###
+DELETE http://localhost:3000/subscriber/60aa5fc3f2ace701bc98a040
+###
+PATCH  http://localhost:3000/subscriber/60aa63e3ada12a29f0305acd
+Content-Type: application/json
+
+{
+    "name":"himanshu"
+}
